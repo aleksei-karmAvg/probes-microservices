@@ -1,8 +1,8 @@
 package telran.microservices.probes.repo;
 
 import org.springframework.data.repository.CrudRepository;
-import telran.microservices.probes.entities.ListProbeValue;
+import telran.microservices.probes.entities.ListProbeValues;
 
-public interface ListProbeRepo extends CrudRepository<ListProbeValue, Long> {
+public interface ListProbeRepo extends CrudRepository<ListProbeValues, Long> {
 
 }
